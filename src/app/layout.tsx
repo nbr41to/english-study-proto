@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FloatLayoutLabel } from '@/components/FloatLayoutLabel';
 import './globals.css';
+import { Suspense } from 'react';
 
 export const metadata: Metadata = {
   title: 'Create Next App',

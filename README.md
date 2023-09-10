@@ -7,7 +7,7 @@
 dependencies
 
 ```sh
-yarn add ai openai @vercel/kv @vercel/postgres @vercel/blob @notionhq/client
+yarn add ai openai @vercel/kv @vercel/postgres @vercel/blob @notionhq/client use-debounce
 ```
 
 dev dependencies

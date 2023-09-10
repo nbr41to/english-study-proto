@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.20",
+    "@mantine/hooks": "^6.0.20",
+    "@mantine/prism": "^6.0.20",
     "@notionhq/client": "^2.2.13",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
@@ -25,10 +29,16 @@
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-speech-recognition": "^3.10.0",
+    "regenerator-runtime": "latest",
     "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "@types/react-speech-recognition": "^3.9.2",
+    "@types/regenerator-runtime": "^0.13.1",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4"
   }
